@@ -4,3 +4,4 @@ rmdir /s /q public\page-data
 rmdir /s /q public\static
 del /q public\index.html
 call gatsby build --prefix-paths
+move public docs
