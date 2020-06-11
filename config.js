@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
-    siteUrl: 'http://techparticles.local',
+    pathPrefix: '/tech-particles',
+    siteUrl: 'https://nightdeveloper.github.io/tech-particles/',
     gaTrackingId: null,
     trailingSlash: false,
   },
