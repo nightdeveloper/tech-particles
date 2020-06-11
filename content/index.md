@@ -4,7 +4,7 @@ metaTitle: ""
 metaDescription: ""
 ---
 
-![Logo](images/logo.png "Logo")
+![Logo](/tech-particles/images/logo.png "Logo")
 
 Raspberry Pi cheat lists, guides, samples and hints to go.
 

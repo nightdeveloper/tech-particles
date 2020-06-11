@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'images/logo.png',
+    logo: '/tech-particles/images/logo.png',
     logoLink: '',
     title: "",
     githubUrl: '',
