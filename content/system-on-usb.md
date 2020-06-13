@@ -22,7 +22,7 @@ Usb drives like external USB Flash / HDD / SSD are more long-term working device
 
 # How we can do it?
 
-1) Download latest Raspbian image from [official raspbian site](https://www.google.com);
+1) Download latest Raspbian image from [official raspbian site](https://www.raspberrypi.org/downloads/raspberry-pi-os/);
 
 2) Write same raspbian image to SD card and USB device;
 

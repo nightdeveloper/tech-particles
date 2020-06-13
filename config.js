@@ -30,8 +30,9 @@ const config = {
       '/diagnostic',
       '/useful-commands',
       '/wifi',
-      '/python',
+      '/camera',
       '/i2c',
+      '/python',
       '/create-service',
     ],
     collapsedNav: [
