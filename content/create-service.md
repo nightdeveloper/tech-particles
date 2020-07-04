@@ -42,13 +42,13 @@ sudo systemctl daemon-reload
 Start service:
 
 ```
-sudo systemctl start my.service
+sudo systemctl start my
 ```
 
 Stop service:
 
 ```
-sudo systemctl stop my.service
+sudo systemctl stop my
 ```
 
 ### Start on a boot
@@ -56,12 +56,12 @@ sudo systemctl stop my.service
 Enable service for starting on a boot
 
 ```
-sudo systemctl enable my.service
+sudo systemctl enable my
 ```
 
 Check status:
 
 ```
-sudo systemctl status my.service
+sudo systemctl status my
 ```
 

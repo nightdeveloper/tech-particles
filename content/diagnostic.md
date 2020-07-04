@@ -70,6 +70,18 @@ pi@raspberrypi:~ $ vcgencmd measure_temp
 temp=40.1'C
 ```
 
+- Get total memory:
+
+GPU memory
+```
+vcgencmd get_mem gpu
+```
+
+CPU memory
+```
+vcgencmd get_mem arm
+```
+
 ## Show boot messages
 
 - Show kernel boot messages:

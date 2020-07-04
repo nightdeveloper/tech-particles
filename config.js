@@ -34,6 +34,7 @@ const config = {
       '/i2c',
       '/python',
       '/create-service',
+      '/ssh-keys',
     ],
     collapsedNav: [
     ],
