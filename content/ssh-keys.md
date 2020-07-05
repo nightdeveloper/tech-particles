@@ -27,7 +27,7 @@ Enter same passphrase again:
 Your identification has been saved in /root/.ssh/id_rsa.
 Your public key has been saved in /root/.ssh/id_rsa.pub.
 The key fingerprint is:
-SHA256:UHqwV9PaDA4XfT55XseC1e28X07V1ODpIr5Vy+hpi1g root@raspi-3-3
+SHA256:UHqwV9123123123123123e28X07V1ODpIr5Vy+hpi1g
 The key's randomart image is:
 ...
 ```
@@ -63,12 +63,21 @@ Is the information correct? [Y/n] Y
 usermod -aG sudo username
 ```
 
+### Sudo without password
+
+Add line to /etc/sudoers:
+
+```
+username     ALL=(ALL:ALL) ALL
+```
+
 ### Create ssh directory
 
 ```
 install -d -m 700 /home/test/.ssh
+# copy authorized_keys or create it
 sudo chmod 644 /home/test/.ssh/authorized_keys
-sudo chown pi:pi /home/test/.ssh/authorized_keys
+sudo chown -R test:test /home/test/.ssh
 ```
 
 Copy public key to authorized_keys file
