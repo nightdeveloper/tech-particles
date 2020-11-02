@@ -4,10 +4,9 @@ metaTitle: ""
 metaDescription: ""
 ---
 
-+--------------+---------------------+---------------------+-------------------+
-| Spec / Model
-| [Raspberry Pi Zero W] (https://www.raspberrypi.org/products/raspberry-pi-zero-w/)| [Raspberry Pi 3b+] (https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)| Raspberry Pi 4b (https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)| Raspberry Pi 400 (https://www.raspberrypi.org/products/raspberry-pi-400/specifications/) |
-+==============+=====================+=====================+===================+
++--------------+---------------------+---------------------+-------------------+-------------------+
+| Spec / Model | Raspberry Pi Zero W | Raspberry Pi 3b+    | Raspberry Pi 4b   | Raspberry Pi 400  |
++==============+=====================+=====================+===================+===================+
 | Dimensions,  | 66mm x 30mm         | 85mm x 56mm         | 88mm x 58mm       | 286mm x 122mm     |
 | weight       | x 5.4mm, 9g         | x 17mm, 50g         | x 19.5mm, 46g     | x 23mm            |
 +--------------+---------------------+---------------------+-------------------+-------------------+
@@ -44,12 +43,18 @@ metaDescription: ""
 | Bluetooth    | 4.1, BLE            | 4.2, BLE            | 5.0, BLE          | 5.0, BLE          |
 +--------------+---------------------+---------------------+-------------------+-------------------+
 | Power        | 5V / 1.2A DC        | 5V / 2.5A+ DC       | 5V / 2.5A+ DC     | 5.1V / 3A+ DC     |
-| supply       |                     |                     |                   |                   |
+| supply       |                     |                     |                   | recommended       |
 +--------------+---------------------+---------------------+-------------------+-------------------+
 | USB ports    | Micro USB (power +  | 4 x USB 2.0         | 2 x USB 2.0,      | 1 x USB 2.0,      |
 |              | OTH), Micro USB     |                     | 2 x USB 3.0       | 2 x USB 3.0       |
 +--------------+---------------------+---------------------+-------------------+-------------------+
-| Max usb      | not limited         | 1.2A all usb        | 1.2A all usb      | 1.2A all usb ?    |
+| Max usb      | not limited         | 1.2A all usb        | 1.2A all usb      |                   |
 | power        |                     |                     |                   |                   |
 +--------------+---------------------+---------------------+-------------------+-------------------+
 
+Links:
+
+- [Raspberry Pi Zero W] (https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
+- [Raspberry Pi 3b+] (https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+- [Raspberry Pi 4b] (https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)
+- [Raspberry Pi 400] (https://www.raspberrypi.org/products/raspberry-pi-400/specifications/)
